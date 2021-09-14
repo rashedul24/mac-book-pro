@@ -58,7 +58,7 @@ function specification(type) {
   } else if (type == "paid") {
     deliveryCharge.innerText = 20;
   }
-}
+};
 
 //calculating total price
 function updatePrice() {
@@ -74,7 +74,7 @@ function updatePrice() {
   totalPrice.innerText = totalPriceNumber;
 
   finalPrice.innerText = totalPriceNumber;
-}
+};
 
 const promoText = document.getElementById("promo-text");
 const promoBtn = document.getElementById("promo-btn");
@@ -88,7 +88,7 @@ function isEmpty() {
   } else {
     document.getElementById("promo-btn").disabled = true;
   }
-}
+};
 //discount calculation
 
 promoBtn.addEventListener("click", function () {
